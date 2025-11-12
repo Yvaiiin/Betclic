@@ -216,7 +216,7 @@ function showJackpotPopup(){
     <div class="modal-backdrop"></div>
     <div class="modal-panel">
       <h2>🎉 JACKPOT 🎉</h2>
-      <p>Vous avez accès à ma candidature !</p>
+      <p>Découvrez sans plus attendre votre lot !</p>
       <a class="modal-cta" target="_blank"
          href="https://drive.google.com/drive/folders/189FKx_-RM3dt6NbarFLnwBAfts5t8ee1?usp=sharing">
          Télécharger
