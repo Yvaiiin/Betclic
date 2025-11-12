@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Candidature Betclic - Yvain</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Maquette Machine à Sous — Candidature Betclic</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🅱️</text></svg>">
+  <link rel="stylesheet" href="style.css">
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+  <div class="app">
+    <header class="header">
+      <div class="brand">
+        <div class="brand-logo">B</div>
+        <h1>Candidature Product Manager</h1>
+      </div>
+      <div class="status">
+        <div class="pill" aria-live="polite">Crédits : <strong>11</strong> / 11</div>
+        <div class="pill">Un candidat exceptionnel à gagner 🏆 </div>
+      </div>
+    </header>
+
+    <main class="layout">
+      <section class="slot-card" aria-label="Machine à sous (maquette visuelle)">
+        <div class="slot-header">
+          <div class="slot-title">Tentez votre chance !</div>
+          <br><br>
+        </div>
+
+        <div class="slot-window">
+          <div class="reels">
+            <!-- Emoji fruits & symboles classiques -->
+            <div class="reel"><div class="symbol">🍒</div></div>
+            <div class="reel"><div class="symbol">🍋</div></div>
+            <div class="reel"><div class="symbol">🍇</div></div>
+            <div class="reel"><div class="symbol red">🔔</div></div>
+          </div>
+        </div>
+
+        <div class="controls">
+          <button class="btn btn-primary" disabled></button>
+          <button class="btn btn-ghost" disabled>RESET</button>
+          <span class="helper"></span>
+        </div>
+
+        <div class="jackpot" role="status" aria-live="polite">
+          <span>JACKPOT :</span>
+          <span class="b">🅱️</span><span class="b">🅱️</span><span class="b">🅱️</span><span class="b">🅱️</span>
+        </div>
+      </section>
+
+      <aside class="sidebar" aria-label="Compétences débloquées">
+        <h3>Compétences gagnées</h3>
+        <div class="skills-grid">
+          <div class="skill"><div class="badge">1</div> <div>Marketing stratégique</div></div>
+          <div class="skill"><div class="badge">2</div> <div>Identité de marque</div></div>
+          <div class="skill"><div class="badge">3</div> <div>Gestion de projets stratégiques</div></div>
+          <div class="skill"><div class="badge">4</div> <div>Stratégie SEA / SEO / ASO</div></div>
+          <div class="skill"><div class="badge">5</div> <div>Pilotage budgétaire (P&L, ROI)</div></div>
+          <div class="skill"><div class="badge">6</div> <div>Web-marketing</div></div>
+          <div class="skill"><div class="badge">7</div> <div>Storytelling & copywriting</div></div>
+          <div class="skill"><div class="badge">8</div> <div>A/B Testing - Prototypage UX/UI</div></div>
+          <div class="skill"><div class="badge">9</div> <div>Management</div></div>
+          <div class="skill"><div class="badge">10</div> <div>Branding & identité visuelle</div></div>
+         <div class="confetti-note">Un easter‑egg à trouver 👀</div>
+      </aside>
+    </main>
+  </div>
+  <div class="modal" id="jackpotModal" aria-hidden="true" role="dialog" aria-labelledby="jackpotTitle">
+  <div class="modal-backdrop"></div>
+  <div class="modal-panel">
+    <h2 id="jackpotTitle">🎉 JACKPOT🎉</h2>
+    <p>Vous avez accès à ma candidature !</p>
+    <a class="btn modal-cta" target="_blank"
+       href="https://drive.google.com/drive/folders/189FKx_-RM3dt6NbarFLnwBAfts5t8ee1?usp=sharing">
+       Télécharger
+    </a>
+    <button class="btn modal-close" id="closeJackpot">Fermer</button>
+  </div>
+</div>
+  <script src="script.js" defer></script>
+</body>
+</html>
