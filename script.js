@@ -133,7 +133,7 @@ while (winSpins.size < TOTAL_WINS) {
 // ========== UI helpers ==========
 function updateCreditsUI(){
   if (!creditPill) return;
-  creditPill.innerHTML = `Crédits 💰 : <strong>${credits}</strong> / ${TOTAL_CREDITS}`;
+  creditPill.innerHTML = `CREDITS 💰 : <strong>${credits}</strong> / ${TOTAL_CREDITS}`;
 }
 function setReelsTo(arr){ reels.forEach((el,i)=> el.textContent = arr[i] ?? FRUITS[i % FRUITS.length]); }
 function shuffleTick(){
@@ -216,12 +216,12 @@ function showJackpotPopup(){
     <div class="modal-backdrop"></div>
     <div class="modal-panel">
       <h2>🎉 JACKPOT 🎉</h2>
-      <p>C’est vraiment votre jour de chance 😉 Découvrez votre lot !</p>
+      <p>Today’s your lucky day 😉 Time to discover your prize!</p>
       <a class="modal-cta" target="_blank"
          href="https://drive.google.com/drive/folders/1wa0lKW5vIdgNRmOAg-iAW3QiZ8ZG5NCE?usp=sharing">
-         Télécharger
+         Download
       </a>
-      <button class="modal-close">Fermer</button>
+      <button class="modal-close">Close</button>
     </div>`;
   document.body.appendChild(modal);
   modal.querySelector(".modal-close").addEventListener("click", ()=> modal.remove());
